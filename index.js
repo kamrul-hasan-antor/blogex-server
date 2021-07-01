@@ -58,4 +58,4 @@ app.get("/", (req, res) => {
   res.send("Welcome to Blogex SERVER......");
 });
 
-app.listen(port);
+app.listen(process.env.PORT || 5000);
